@@ -5,7 +5,7 @@ from django.contrib.admin.sites import site
 from django.contrib.auth import get_user_model
 from django.db.models import fields
 from django.template.loader import get_template, select_template
-from django.apps import posts
+
 
 try:
     from posts.models import Post
